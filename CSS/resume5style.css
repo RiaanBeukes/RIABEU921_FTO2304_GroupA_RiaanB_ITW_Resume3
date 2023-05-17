@@ -1,0 +1,48 @@
+.headerpos {
+    color:rgb(58, 75, 88);
+    display:block;
+    margin-left: auto; 
+    margin-right: auto;
+}
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: rgb(148, 167, 179); 
+}
+h1 {
+   font-size: 40px;
+   color:rgb(53, 69, 80)
+}
+.bulletlist {
+         background-color: rgb(217, 230, 238);
+}
+title {
+    font-family: Arial, Helvetica, sans-serif;
+}
+article {
+      background-color: rgb(217, 230, 238);
+   }
+
+h2 {
+   color:rgb(68, 88, 102)
+}
+
+h3 {
+   color:rgb(94, 103, 110) 
+}
+ul {
+   list-style: none;
+}
+ul li::before {
+           content: "\2022"; color: rgb(128, 145, 145); font font-weight: bold; display: inline-block; width: lem; margin-left: -2em;
+} 
+img {
+   display: block; 
+   margin-left: auto;
+   margin-right: auto;
+   max-width:20%; 
+   max-height:auto; 
+   border: 5px double rgb(68, 88, 102) ; border-radius: 50%;
+}
+footer {
+     background-color:rgb(217, 230, 238);
+   }
