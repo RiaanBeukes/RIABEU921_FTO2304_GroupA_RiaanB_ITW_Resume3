@@ -94,14 +94,12 @@ footer {
     height:50px;
     width:50px;
     background-color:black;
-    position:absolute;
-    top: 18px;
-    left: 18px;
     border: radius 30px;
     animation-name: squarerotate1;
     animation-duration: 3s;
     animation-iteration-count:infinite;
     animation-timing-function: linear;
+    position:static;
 }
 
 /*"in" logo on top of square*/
@@ -111,9 +109,9 @@ footer {
       font-weight: bold;
       color:white;
       font-family: Arial, Helvetica, sans-serif;
-      position:absolute;
-      top:-10px;
-      left:29px;
+      position:static;
+      top:px;
+      left:31px;
 }
 
 /*link/logo next to square*/
@@ -121,8 +119,8 @@ footer {
     margin-left:168px;
     margin-top:10px;
     font-weight:bold;
-    position: absolute;
-    font-size: 35px;
+    font-size: 28px;
+    position: static;
     top:16px;
     left:-85px;
  }
