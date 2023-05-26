@@ -21,21 +21,21 @@
                 
                 
                     <ul class="bulletlist">
-                        <li><a href="#Education">Education</a></li>
-                        <li><a href="#Experience">Experience</a></li>
-                        <li><a href="#Skills">Skills</a></li>
+                        <li class="nav"><a href="#Education">Education</a></li>
+                        <li class="nav"><a href="#Experience">Experience</a></li>
+                        <li class="nav"><a href="#Skills">Skills</a></li>
                     </ul>
            </aside>
         
            <article>
                <div class="educat">
-                  <h2 id="Education">Education</h2>
+                <h2 id="Education">Education</h2>
 
-                  <h3>Intro to Web at <a href="#https://www.codespace.co.za/">CodeSpace Academy</a></h3>
+                <h3>Intro to Web at <a href="#https://www.codespace.co.za/">CodeSpace Academy</a></h3>
             
                     <p>
-                        This is an Intro to weblanbal Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                       This is an Intro to weblanbal Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                       Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
                     </p>
 
                     <p>
@@ -87,9 +87,41 @@
     <footer class="educat">
         <h2>Contact Details:</h2>
 
+        <p>Click the link to contact me via LinkedIn or complete the form below and submit.</p>
+
         <div>
         <div class="linkediname">
             <a href="https://www.linkedin.com/feed/">LinkedIn</a>
+        </div>
+        <br>
+        <div>
+            <form action="https://formsubmit.co/ble" method="POST">
+                    
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" pattern="[A-Za-z]+" title="Required, letters only."required>
+                </p>
+
+                <p>
+                    <p>Please select your preferred language of communication:</p>
+
+                    <input type="radio" id="english" name="english" value="english">
+                    <label for="english">English:</label 
+                      title="Please choose a preferred language of communication:"required>
+
+                    <input type="radio" id="afrikaans" name="afrikaans" value="afrikaans">
+                    <label for="afrikaans">Afrikaans:</label 
+                      title="Please choose a preferred language of communication:"required>
+                </p>
+                
+                <div> 
+                    <label for="textarea">Message:</label> 
+                    <textarea id="message" name="message" rows="5" cols="30"></textarea>
+                </div>  
+
+                <p><input type="submit" value="Submit"></p>
+               
+            </form>
         </div>
 
     </footer>
