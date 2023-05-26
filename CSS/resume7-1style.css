@@ -2,17 +2,19 @@ h1 {
    color:rgb(58, 75, 88);
    display: block;
    position: static;
-   padding-top: 5rem;
+   padding-top: 4rem;
    margin-left: 34rem;
    font-size: 3rem;
 }
 
 #rectangle{
+   z-index:1;
    display:block;
-   position: relative;
-   z-index:90;
-   width:200px;
-   height:100px;
+   position: absolute;
+   margin:auto;
+   width:100%;
+   height:30%;
+   top:0rem;
    background:rgb(29, 29, 85);
 }
 
@@ -62,6 +64,19 @@ title {
       margin-right: 0,5rem;
       padding: 1rem;
       padding-top: 0.5rem;
+}
+
+.skils {
+   border: 1px solid rgb(217, 230, 238);
+      background-color: rgb(217, 230, 238);
+      width:90%rem;
+      font-size: 2%rem;
+      margin: 0.8rem;
+      margin-left: 0.5rem;
+      margin-right: 0,5rem;
+      padding: 1rem;
+      padding-top: 0.5rem;
+   
 }
 
 h2 {
