@@ -1,23 +1,24 @@
 h1 {
-   color:rgb(58, 75, 88);
+   color:rgb(222, 238, 250);
    display: block;
    position: static;
    padding-top: 4rem;
-   margin-left: 34rem;
+   margin-left: 33rem;
    font-size: 3rem;
-}
+ }
 
 #rectangle{
-   z-index:1;
+   z-index:-1;
    display:block;
    position: absolute;
-   margin:auto;
+   left:0px;
    width:100%;
    height:30%;
    top:0rem;
    background:rgb(29, 29, 85);
-}
+ }
 
+/*-------v------My pic-------v--------*/
 .mypic {
    display: block; 
    top:-8rem;
@@ -26,88 +27,151 @@ h1 {
    max-width:20%; 
    max-height:auto; 
    border: 5px double rgb(68, 88, 102) ; border-radius: 50%;
-}
+ }
 
-h4 {
+/*-----v----Introduction-----v-----*/
+.intro {
    position:relative;
    top:-19rem;
    margin-left: 34rem;
-   color: rgb(53, 69, 80)
-}
+   color: rgb(212, 230, 241)
+ }
+
 body {
    font-family: Arial, Helvetica, sans-serif;
-   background-color: rgb(148, 167, 179); 
+   background-color: rgb(132, 151, 163); 
+ }
+
+ /*-------v--------Navbar block--------v----------*/
+nav {
+   display: flex;
+   flex-direction: row;
+   position:relative;
+   width:59%;
+   height:1.2rem;
+   display: inline;
+   display:block;
+   border: solid 1px;
+   color:rgb(10, 10, 10);
+   background-color: rgb(10, 10, 10);
+   padding:3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    top:-17.5rem;
+    left:34rem;
 }
 
-.bulletlist {
-        list-style-type: none;
-        margin: 2rem;
-        padding: 0;
-        border: 1px dashed rgb(0, 0, 0); 
-        background-color: rgb(0, 0, 0); 
-        width: 6%;
-        left:20rem;
-        font-size: 1.2rem;
-        padding-bottom: 1rem;
+/* ---v----nav bar links to content subheaders-----v----*/
+
+/*----v--Education link----v----*/
+.edubut {
+   display:flex;
+   position:relative;
+   color:rgb(145, 177, 206);
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration:none;
+}
+/*Education mouse over link*/
+.edubut:hover {
+   color:rgb(44, 148, 240);
+   position:relative;
+   font-family:Arial, Helvetica, sans-serif;
+   text-decoration:underline;
 }
 
-.nav {
-      display: inline;
+/*----v--Experience link----v--*/
+.exprbut {
+   display:flex;
+   position:relative;
+   margin-left: 8rem;
+   top:-2.23rem;
+   color:rgb(145, 177, 206);
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration:none;
+}
+/*Experience mouse over link*/
+.exprbut:hover {
+   display:flex;
+   position:relative;
+   margin-left: 8rem;
+   top:-2.23rem;
+   color:rgb(44, 148, 240);
+   position:relative;
+   font-family:Arial, Helvetica, sans-serif;
+   text-decoration:underline;
 }
 
-title {
-    font-family: Arial, Helvetica, sans-serif;
+/*----v---Skills link---v------*/
+.sklbut {
+   display:flex;
+   position:relative;
+   margin-left: 17rem;
+   top:-4.5rem;
+   color:rgb(145, 177, 206);
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration:none;
 }
+/*Skills mouse over link*/
+.sklbut:hover {
+   color:rgb(44, 148, 240);
+   position:relative;
+   font-family:Arial, Helvetica, sans-serif;
+   text-decoration:underline;
+}
+/*-------^-------End of navbar links--------^----------*/
 
+
+/*Education*/
 .educat {
       border: 1px solid rgb(217, 230, 238);
-      background-color: rgb(217, 230, 238);
-      width:80%rem;
+      background-color: rgb(228, 241, 248);
+      width:90%;
+      right:10%;
       font-size: 2%rem;
-      margin: 0.8rem;
-      margin-left: 0.5rem;
-      margin-right: 0,5rem;
+      margin: 2rem;
+      margin-left: auto;
+      margin-right: auto;
       padding: 1rem;
       padding-top: 0.5rem;
-}
+ }
 
+ /*Skills*/
 .skils {
-   border: 1px solid rgb(217, 230, 238);
-      background-color: rgb(217, 230, 238);
-      width:80%rem;
+      border: 1px solid rgb(217, 230, 238);
+      background-color: rgb(228, 241, 248);
+      width:90%;
       font-size: 2%rem;
       margin: 0.8rem;
       margin-left: 0.5rem;
       margin-right: 0,5rem;
       padding: 1rem;
       padding-top: 0.5rem;
-   
-}
+ }
 
+ /*Headers: Education,Experience,Skills,Contact Details*/
 h2 {
    color:rgb(68, 88, 102);
-}
+ }
 
+ /*Headers:Job1,Job2*/
 h3 {
    color:rgb(94, 103, 110);
-}
+ }
 
 ul {
-   list-style: none;
-}
-
-ul li::before {
-    content: "\2022"; c
-    color: rgb(128, 145, 145);
-    font font-weight: bold;
+  
+    font-weight: normal;
     display: inline-block; 
     width: lem; 
     margin-left: -2em;
-} 
+    list-style: none;
+ } 
 
 footer {
-   background-color:rgb(217, 230, 238);
-}
+   background-color: rgb(228, 241, 248);
+ }
+
+/*--------v---------Links in body/footer------------v------------*/
 
 .linkediname {
    font-weight:bold;
@@ -116,31 +180,32 @@ footer {
  }
 
 /*unvisited link*/
-a:link {
-   color:rgb(94, 103, 110);
+.external:link {
+   color:rgb(67, 74, 80);
    font-family:Arial, Helvetica, sans-serif;
    text-decoration:none;
    position:relative;
-}
+ }
 
 /*visited link*/
-a:visited {
+.external:visited {
    color:rgb(81, 118, 146);
    font-family:Arial, Helvetica, sans-serif;
    text-decoration:none;
-}
+ }
 
 /*mouse over link*/
-a:hover {
+.external:hover {
    color:rgb(35, 115, 219);
    font-size:100%;
    font-family:Arial, Helvetica, sans-serif;
    text-decoration:underline;
-}
+ }
 
 /*selected link*/
-a:activate {
+.external:activate {
     color:rgb(68, 146, 248);
     font-family:Arial, Helvetica, sans-serif;
     text-decoration:underline;
-}
+ }
+/*--------^---------End of links in body/footer------------^------------*/
