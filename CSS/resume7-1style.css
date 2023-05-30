@@ -26,7 +26,8 @@ h1 {
    position:relative;
    max-width:20%; 
    max-height:auto; 
-   border: 5px double rgb(68, 88, 102) ; border-radius: 50%;
+   border: 5px double rgb(68, 88, 102) ; 
+   border-radius: 50%;
  }
 
 /*-----v----Introduction-----v-----*/
@@ -135,8 +136,8 @@ nav {
       padding-top: 0.5rem;
  }
 
- /*Skills*/
-.skils {
+ /*Skills
+skils {
       border: 1px solid rgb(217, 230, 238);
       background-color: rgb(228, 241, 248);
       width:90%;
@@ -146,7 +147,7 @@ nav {
       margin-right: 0,5rem;
       padding: 1rem;
       padding-top: 0.5rem;
- }
+ }*/
 
  /*Headers: Education,Experience,Skills,Contact Details*/
 h2 {
