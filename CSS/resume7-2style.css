@@ -57,6 +57,14 @@ h1 {
     border: 5px double rgb(68, 88, 102) ; 
     border-radius: 50%;
   }*/
+
+  .hero {
+     position:relative;
+     top:-19rem;
+     margin:auto;
+     width:100vh
+  }
+  
  
  /*-----v----Introduction-----v-----*/
  .intro {
