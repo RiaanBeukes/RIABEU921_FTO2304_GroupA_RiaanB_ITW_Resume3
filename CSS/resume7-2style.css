@@ -7,7 +7,7 @@ h1 {
     font-size: 3rem;
   }
  
- #rectangle{
+ /*#rectangle{
     z-index:-1;
     display:block;
     position: absolute;
@@ -16,9 +16,9 @@ h1 {
     height:35%;
     top:0rem;
     background:rgb(29, 29, 85);
-  }
+  } */
  
- /*-------v------My pic-------v--------*/
+ /*-------v------My pic-------v--------
 
  .mypic {
     display: block; 
@@ -56,7 +56,7 @@ h1 {
     max-height:auto; 
     border: 5px double rgb(68, 88, 102) ; 
     border-radius: 50%;
-  }
+  }*/
  
  /*-----v----Introduction-----v-----*/
  .intro {
