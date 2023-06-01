@@ -2,9 +2,11 @@ h1 {
     color:rgb(222, 238, 250);
     display: block;
     position: static;
-    padding-top: 4rem;
-    margin-left: 33rem;
-    font-size: 3rem;
+    padding-top: 20px;
+    bottom: -30px;
+    margin-left: 650px;
+    margin-top:30px;
+    font-size: 280%;
   }
  
  /*#rectangle{
@@ -18,20 +20,21 @@ h1 {
     background:rgb(29, 29, 85);
   } */
  
- /*-------v------My pic-------v--------
+ /*-------v------My pic-------v--------*/
 
  .mypic {
     display: block; 
-    top:-8rem;
-    margin-left: 40vh;
+    padding-left: 3px;
+    top:-4px;
+    margin-left: 20%;
     position:relative;
-    max-width:100%; 
+    max-width:26%; 
     max-height:auto; 
     border: 5px double rgb(68, 88, 102) ; 
     border-radius: 50%;
     overflow: hidden;
   }
-.mypic img {
+/*.mypic img {
    margin-top:-100px;
    margin-left: -200px;
 }
@@ -47,6 +50,11 @@ h1 {
     max-height:auto; 
   }
 
+  position:relative;
+     top:-19rem;
+     margin:auto;
+     width:100vh
+
   .mypicbg {
     display: block; 
     top:-8rem;
@@ -58,19 +66,33 @@ h1 {
     border-radius: 50%;
   }*/
 
-  .hero {
-     position:relative;
-     top:-19rem;
-     margin:auto;
-     width:100vh
-  }
+.hero {
+  z-index: -1;
+  object-fit: contain;
+  background-position: centre;
+  width: 50vw;
+  height: 50vw;
+  position: absolute;
+  top: 0px;
+  left:-20px;
+  margin-top: 0px;
+  padding-top: -5px;
+ }
+
+.hero::before {
+  position:absolute;
+  top: 20px;
+  left:-20px;
+  background-size: contain;
+  height: auto;
+ }
   
  
  /*-----v----Introduction-----v-----*/
  .intro {
     position:relative;
-    top:-19rem;
-    margin-left: 34rem;
+    top:-220px;
+    margin-left: 650px;
     color: rgb(212, 230, 241)
   }
  
@@ -92,10 +114,10 @@ h1 {
     color:rgb(10, 10, 10);
     background-color: rgb(10, 10, 10);
     padding:3px;
-     padding-left: 5px;
+     padding-left: 20px;
      padding-right: 5px;
-     top:-17.5rem;
-     left:33rem;
+     top:-200px;
+     left:650px;
  }
  
  /* ---v----nav bar links to content subheaders-----v----*/
